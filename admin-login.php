@@ -15,9 +15,9 @@
 			<h4 class="display-4 fs-1 text-center mb-3">ADMIN LOGIN</h4>
 			<p class="text-center mb-3">Chỉ dành cho Quản trị viên</p>
 	<?php 
-$pass ="123";
-$pass = password_hash($pass, PASSWORD_DEFAULT);
-echo $pass;
+// $pass ="123";
+// $pass = password_hash($pass, PASSWORD_DEFAULT);
+// echo $pass;
 ?>
 			<?php if (isset($_GET['error'])) { ?>
 				<div class="alert alert-danger" role="alert">
