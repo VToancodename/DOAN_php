@@ -13,7 +13,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['username'])) {
   $categories = getAllCategories($conn);
   $categories5 = get5Categoies($conn); 
   $category = 0;
- ?>
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,13 +43,8 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['username'])) {
      include 'inc/NavBar.php';
   ?>
  <div class="container mt-5">
- <h1 class="display-4 mb-4 fs-3">
- 			<?php if ($category != 0)
- 			  echo "Articles about '".$category['category']."'";  
- 			else echo "Articles"; ?>
  	
-</h1>
-  
+
   <section class="d-flex">
   	<?php if (!isset($_GET['category_id'])) { ?>
   	   <main class="main-blog p-2">

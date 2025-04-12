@@ -34,10 +34,10 @@ if (isset($_GET['post_id'])) {
 <body>
 	<?php 
         include 'inc/NavBar.php';
-      ?>
+    ?>
     
     <div class="container mt-5">
-    	 <section class="d-flex">
+    	<section class="d-flex">
 
   	   <main class="main-blog">
 
